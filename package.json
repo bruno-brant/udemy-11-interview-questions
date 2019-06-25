@@ -1,0 +1,29 @@
+{
+  "name": "udemy-11-interview-questions",
+  "version": "1.0.0",
+  "description": "Solutions for the Udemy course on interview questions.",
+  "main": "intersect.js",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bruno-brant/udemy-11-interview-questions.git"
+  },
+  "keywords": [
+    "interview",
+    "algorithms",
+    "binary-search",
+    "vectors"
+  ],
+  "author": "Bruno \"Storm\" Brant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bruno-brant/udemy-11-interview-questions/issues"
+  },
+  "homepage": "https://github.com/bruno-brant/udemy-11-interview-questions#readme"
+}
