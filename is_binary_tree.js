@@ -1,27 +1,6 @@
 // udemy - binary trees
 const assert = require('assert')
-
-// Use this class to create binary trees.
-class Node {
-	constructor(value, left = null, right = null) {
-		this.value = value
-		this.left = left
-		this.right = right
-	}
-
-	toString() {
-		return str(self.value)
-	}
-
-	static toTree(arr) {
-		// check if there's a subtree
-		if (!arr) return null;
-		// check if leaf
-		if (typeof arr == "number") return arr;
-		// or return a subtree
-		return new Node(arr[0], Node.toTree(arr[1]), Node.toTree(arr[2]));
-	}
-}
+const Node = require('./tree');
 
 // Implement your function below.
 function is_bst(node, lower_lim = null, upper_lim = null) {
